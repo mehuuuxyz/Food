@@ -1,0 +1,65 @@
+/* Universal Style Start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ;
+    scroll-behavior: smooth;
+}
+/* Navber saction st */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: -5s;
+}
+nav.sticky{
+    background-color: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px  20px rgb(0 0 0 0.05);
+}
+nav .logo{
+    color: #111111;
+    font-weight: 700;
+    font-size: 2em;
+    text-justify: none;
+    text-decoration: none;
+}
+nav.sticky .logo{
+    color: #111111;
+}
+nav .logo span{
+    color: #ff0145;
+}
+nav .navigration{
+    position: relative;
+    display: flex;
+}
+nav .navigration li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav.sticky .navigration li{
+    color: #111111;
+}
+nav .navigration li a{
+    text-decoration: none;
+    color: #111111;
+    font-weight: 400;
+    transform: .3s;
+}
+nav .navigration li a:hover{
+    color: #ff0157;
+}
+
+
+
+
+
+/* Navber saction end */
