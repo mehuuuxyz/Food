@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: 'Poppins', sans-serif  ;
     scroll-behavior: smooth;
 }
 /* Navber saction st */
@@ -25,7 +25,7 @@ nav.sticky{
     box-shadow: 0 5px  20px rgb(0 0 0 0.05);
 }
 nav .logo{
-    color: #111111;
+    color: #fff;
     font-weight: 700;
     font-size: 2em;
     text-justify: none;
@@ -50,7 +50,7 @@ nav.sticky .navigration li{
 }
 nav .navigration li a{
     text-decoration: none;
-    color: #111111;
+    color: #fff;
     font-weight: 400;
     transform: .3s;
 }
@@ -58,8 +58,48 @@ nav .navigration li a:hover{
     color: #ff0157;
 }
 
-
-
-
-
 /* Navber saction end */
+
+/*  Hero Saction Start */
+.bunner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Assets/bg.jpg);
+    background-size: cover;
+}
+.bunner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.bunner .content h2{
+    font-size: 4.5em;
+    color: #fff;
+    transition: -5s;
+}
+.bunner .content p{
+    font-size: 1em;
+    color: #fff;
+}
+.btn{
+    font-size: 1em;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #ff0157;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .5s;
+    border-radius: 5px;
+    border: 1px solid #ff0157;
+}
+.btn:hover{
+    letter-spacing: 6px;
+    background-color: transparent;
+
+}
+/*  Hero Saction End */
